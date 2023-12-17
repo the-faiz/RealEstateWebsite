@@ -1,0 +1,102 @@
+/* Carousel css ends  */
+
+.review{
+    margin-top:250px;
+    display: flex;
+    color:green;
+    /* flex-wrap: wrap; */
+}
+.carousel2{
+    width:50vw;
+}
+.review h2{
+    margin:20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:3rem;
+}
+
+.rev{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin:10px 20px;
+    color: black;
+    border-right: 2px solid black;
+    overflow-y:auto;
+    
+}
+
+.rev img{
+    border-radius: 1000px;
+
+}
+
+.rev span{
+    margin-left:100px;
+    font-size: 1.2rem;
+}
+
+.rev p{
+    margin: 20px;
+}
+
+
+.contact{
+    display:flex;
+    width:50vw;
+    flex-direction: column;
+    margin:20px 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    color:green;
+  }
+
+  .contact h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:3rem;
+  }
+  .contactForm{
+    display:flex;
+    flex-direction: column;
+    width:50vw;
+  }
+
+  .contactForm label, .contactForm input{
+    margin:10px 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+  }
+
+  #message{
+    height:30vh;
+  }
+
+  .contact input[type='submit']{
+    background-color: black;
+    color:white;
+    width:10vw;
+    min-width: 80px;
+    padding:5px 5px;
+    cursor: pointer;
+  }
+
+  .contact input[type='submit']:hover{
+    color:black;
+    background-color: white;
+    transition: 1s;
+  }
+
+  @media (max-width:900px){
+    .review{
+        flex-wrap: wrap;
+    }
+    .carousel2{
+        width:100vw;
+    }
+    .contact{
+        display:flex;
+        width:100vw;
+        justify-content: center;
+        align-items: center;
+      }
+  }

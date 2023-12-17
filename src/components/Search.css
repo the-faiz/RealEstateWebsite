@@ -1,0 +1,78 @@
+/* First Page Css */
+.fPage{
+    display:flex;
+    height: 60vh;
+    width:100vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+}
+
+.left_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width:80%;
+    /* border: 2px solid red; */
+}
+
+.left_item h1{
+    padding:10px 10px;
+    margin-bottom: 0px;
+    font-family: 'Young Serif', serif;
+    font-weight: bolder;
+    color: #0dcaf0;
+}
+
+.left_item span{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.SearchBox{
+    /* border:2px solid red; */
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.SearchBox input{
+    width: 60%;
+    height: 100%;
+    font-size: 1.2rem;
+    margin-left:10px;
+    margin-right:10px;
+    border-radius: 5px;
+
+
+}
+
+.Search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+
+
+@media (max-width:700px){
+    .SearchBox button{
+        font-size: 0.8rem;
+        width:30%;
+    }
+    .SearchBox input{
+        /* font-size: 0.8rem; */
+        width:80%;
+    }
+    .filter{
+        display: none;
+    }
+}
+
+/* First Page Css ends  */
